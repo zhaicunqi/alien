@@ -5,9 +5,8 @@ class GameStats():
     def __init__(self, ai_settings):
         self.ai_settings = ai_settings
         self.reset_stats()
-
+        # 游戏状态
         self.game_active = False
-
         # 最高纪录
         self.high_score = 0
         # 游戏积分

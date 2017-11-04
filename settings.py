@@ -7,22 +7,17 @@ class Settings():
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
         self.ship_limit = 3
-
         # 子单设置
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
         self.bullet_num = 5000
-
         # 外星人移动速度
         self.fleet_drop_speed = 30
-
-
         # 外星人等级加速
         self.speedup_scale = 1.5
         # 得分等级
         self.score_scale = 1.5
-
         # 初始化游戏节奏
         self.initialize_dynamic_settings()
 
